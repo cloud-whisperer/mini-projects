@@ -8,5 +8,6 @@
 <br>A team from Account B requires read-only access to compliance logs stored in Account A's S3 bucket for 
 <br>auditing purposes, using the principle of least privilege (PLP) to meet the business need for this use case.
 <br>
-<br><br>
+<br>
+
 ![Alt Text](S3_cross_account_access_lc_WATERMARKED_lc.jpg)
