@@ -14,3 +14,5 @@ This project demonstrates a simple Continuous Integration (CI) pipeline using **
 
 ### ✅ Architecture Overview:
 
+
+![Alt Text](cloudbees_aws_hello_world_app_lc.jpg)
