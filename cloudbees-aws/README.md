@@ -8,6 +8,9 @@ CloudBees CI ensures a streamlined **CI/CD pipeline** for automating deployments
 
 This mini-project demonstrates the integration of **CloudBees CI** (Jenkins-based) with **AWS EC2** and **GitHub** to automate the deployment of a simple **Hello World** web application on an EC2 instance. The pipeline facilitates seamless code integration and deployment, with optional Docker support.
 
+cloudbees_jenkins_lc_WATERMARKED_lc.jpg
+![Alt Text](cloudbees_jenkins_lc_WATERMARKED_lc.jpg)
+
 ### Overview:
 - **GitHub** hosts the application code in the **"hello-app" repository**.
 - **CloudBees CI** (Jenkins-based) is used to automate the build, test, and deployment processes.
