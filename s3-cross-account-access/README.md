@@ -1,4 +1,4 @@
-<h1>S3 cross account access mini-projekt</h1>
+<h1>S3 cross account access mini-projekt  🪣 </h1>
 This PoC demonstrates secure cross-account access between two AWS accounts using an S3 bucket policy. 
 <br>
 <br> Account A hosts a bucket and grants explicit access to a user in Account B, permitting user B
