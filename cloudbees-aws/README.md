@@ -1,8 +1,15 @@
-<h1>🐝 Simple "hello world" app using CloudBees CI on AWS</h1>
+<h1>🐝 CloudBees Mini-Project: Continuous Integration with AWS EC2 and CloudBees CI</h1>
 <br>
 
-## 🛠️ Tools Used
+This project demonstrates a simple Continuous Integration (CI) pipeline using **CloudBees CI** (Jenkins-based) on AWS EC2 
+<br>with **GitHub** for source control. The goal is to automate the deployment of a **Hello World** web application hosted 
+<br>on an EC2 instance, with optional Docker integration.
 
-- **AWS EC2 (Ubuntu)** – Used as the virtual machine environment for deploying and managing the project.
-- **CloudBees CI (Jenkins-based)** – Continuous Integration platform built on Jenkins for automating build, test, and deployment workflows.
-- **GitHub** – Version control and collaboration platform for hosting the source code and managing project changes.
+### 🛠️ Tools Used:
+- **AWS EC2 (Ubuntu)** – Cloud server to deploy and run the web application.
+- **CloudBees CI** – Jenkins-based platform for automating build, test, and deployment workflows.
+- **GitHub** – Source control platform for managing the application code.
+- **Docker** (optional) – Containerization for deploying the application.
+
+### ✅ Architecture Overview:
+
