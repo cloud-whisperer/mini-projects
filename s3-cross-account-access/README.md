@@ -5,7 +5,7 @@
 <br>access to the files in Account A's S3 bucket. 
 <br>
 <br><h2>Example use case:</h2>
-<br>A team from Account B requires read-only access to compliance logs stored in Account A's S3 bucket for 
+A team from Account B requires read-only access to compliance logs stored in Account A's S3 bucket for 
 <br>auditing purposes, using the principle of least privilege (PLP) to meet the business need for this use case.
 <br>
 <br>
