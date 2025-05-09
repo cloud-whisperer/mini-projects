@@ -10,9 +10,6 @@ This project demonstrates a simple Continuous Integration (CI) pipeline using **
 - **AWS EC2 (Ubuntu)** – Cloud server to deploy and run the web application.
 - **CloudBees CI** – Jenkins-based platform for automating build, test, and deployment workflows.
 - **GitHub** – Source control platform for managing the application code.
-- **Docker** (optional) – Containerization for deploying the application.
-
-### ✅ Architecture Overview:
 
 
 ![Alt Text](cloudbees_aws_hello_world_app_lc.jpg)
