@@ -1,4 +1,5 @@
-<h1>🐝 CloudBees Mini-Project: Continuous Integration with AWS EC2 and CloudBees CI</h1>
+<h1>🐝 CloudBees Mini-Project:
+<br>Continuous Integration with AWS EC2 and CloudBees CI</h1>
 <br>
 
 This project demonstrates a simple Continuous Integration (CI) pipeline using **CloudBees CI** (Jenkins-based) on AWS EC2 
