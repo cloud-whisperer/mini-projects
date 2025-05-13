@@ -12,4 +12,5 @@ A development team needs a fast and scalable NoSQL database to prototype a catal
 <br>into the Azure portal and SDKs for integration with applications.
 <br>
 <br>
+
 ![Alt Text](azure_cosmos_db_lc_WATERMARKED_lc.jpg)
