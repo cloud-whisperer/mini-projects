@@ -1,4 +1,4 @@
-<h1>Azure Cosmos DB mini-projek  🌌 </h1>
+<h1>Azure Cosmos DB mini-projekt  🌌 </h1>
 This PoC demonstrates how to provision, manage, and query NoSQL data using Azure Cosmos DB through the Azure portal.
 <br>
 <br> An Azure Cosmos DB account was created and configured with provisioned throughput. A sample database and 
