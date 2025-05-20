@@ -1,2 +1,2 @@
 
-![Alt Text](azure_cosmos_db_lc_WATERMARKED_lc.jpg)
+![Alt Text](AWS_jenkins_slack_lc_WATERMARKED.jpg)
