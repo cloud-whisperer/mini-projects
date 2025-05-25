@@ -1,4 +1,4 @@
-## <h5> 📢 SNS x Lambda: Event-Triggered Email Notification Project </h5>
+## 📢 SNS x Lambda: Event-Triggered Email Notification Project 
 
 ## ✉️ Send Email Alerts in Real-Time Using AWS SNS and Lambda Functions
 
