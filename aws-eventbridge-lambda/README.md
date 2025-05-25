@@ -9,7 +9,8 @@ This mini-project focused on building a lightweight event-driven architecture th
 
 ![Alt Text](EventBridge_Lambda_lc_WATERMARKED.jpg)
 
----
+<br>
+<br>
 
 Part Two - ✅ Project Goals
 
@@ -18,8 +19,7 @@ Part Two - ✅ Project Goals
 🔔 Notify subscribers via email in real time
 🔧 Confirm delivery by testing with a sample event
 
-<br>
-<br>
+---
 
 🔧 What I Accomplished
 
