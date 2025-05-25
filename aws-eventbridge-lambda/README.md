@@ -18,7 +18,8 @@ Part Two - ✅ Project Goals
 🔔 Notify subscribers via email in real time
 🔧 Confirm delivery by testing with a sample event
 
----
+<br>
+<br>
 
 🔧 What I Accomplished
 
