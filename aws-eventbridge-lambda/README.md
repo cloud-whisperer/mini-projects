@@ -14,10 +14,10 @@ This mini-project focused on building a lightweight event-driven architecture th
 
 ## Part Two - ✅ Project Goals
 
-📬 Send an email when an event occurs
-🟨 Use AWS Lambda to publish messages to SNS
-🔔 Notify subscribers via email in real time
-🔧 Confirm delivery by testing with a sample event
+📬 - Send an email when an event occurs
+🟨 - Use AWS Lambda to publish messages to SNS
+🔔 - Notify subscribers via email in real time
+🔧 - Confirm delivery by testing with a sample event
 
 ---
 
