@@ -10,7 +10,7 @@ This mini-project focused on building a lightweight event-driven architecture th
 ![Alt Text](EventBridge_Lambda_lc_WATERMARKED.jpg)
 
 
-## Part Two - ✅ Project Goals
+## ✅ Project Goals
 
  - 📬  &nbsp;&nbsp;Send an email when an event occurs
  - 🟨  &nbsp;&nbsp;Use AWS Lambda to publish messages to SNS.
