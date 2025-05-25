@@ -36,8 +36,8 @@ This mini-project focused on building a lightweight event-driven architecture th
 ## 💡 Key Learnings & Outcomes
 
 - ⚡ Understood the core mechanics of AWS SNS and its integration with Lambda.
-- 📨 Learned how SNS topic subscriptions work and the importance of confirmation emails.
-- 🔗 Strengthened familiarity with event-driven architectures and decoupled service communication.
-- 🛠️ Practiced building serverless functions to support lightweight automation use cases.
+- 📨  Learned how SNS topic subscriptions work and the importance of confirmation emails.
+- 🔗  Strengthened familiarity with event-driven architectures and decoupled service communication.
+- 🛠️  Practiced building serverless functions to support lightweight automation use cases.
 
 
