@@ -7,7 +7,7 @@ This mini-project focused on building a lightweight event-driven architecture th
 
 ---
 
-![Alt Text](EventBridge_Lambda_lc_WATERMARKED.jpg)
+![Alt Text](SNS_LAMBDA_lc_WATERMARKED_lc.jpg)
 
 
 ## ✅ Project Goals
