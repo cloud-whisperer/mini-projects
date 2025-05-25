@@ -12,7 +12,7 @@ This mini-project focused on building a lightweight event-driven architecture th
 <br>
 <br>
 
-Part Two - ✅ Project Goals
+## Part Two - ✅ Project Goals
 
 📬 Send an email when an event occurs
 🟨 Use AWS Lambda to publish messages to SNS
@@ -21,7 +21,7 @@ Part Two - ✅ Project Goals
 
 ---
 
-🔧 What I Accomplished
+## 🔧 What I Accomplished
 
 🧵 Created an SNS Topic with Email Subscription
 Set up an SNS topic and subscribed using a verified email address, enabling the system to push email alerts.
@@ -37,7 +37,7 @@ Completed the email subscription confirmation process to activate delivery of me
 
 ---
 
-💡 Key Learnings & Outcomes
+## 💡 Key Learnings & Outcomes
 
 ⚡ Understood the core mechanics of AWS SNS and its integration with Lambda
 📨 Learned how SNS topic subscriptions work and the importance of confirmation emails
