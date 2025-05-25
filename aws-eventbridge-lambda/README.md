@@ -23,8 +23,7 @@ This mini-project focused on building a lightweight event-driven architecture th
 
 - 🧵 Created an SNS Topic with Email Subscription.  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set up an SNS topic and subscribed using a verified email address, enabling the system to push email alerts.
-
-- 🟨  Deployed a Lambda Function to Trigger Notifications.
+- 🟨  Deployed a Lambda Function to Trigger Notifications.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wrote a basic AWS Lambda function that publishes a message to the SNS topic, simulating an event trigger.
 - 🧪Tested Lambda Execution and Verified Email Delivery.
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manually triggered the Lambda function, which sent a notification through SNS. Received the email successfully, confirming the setup 
