@@ -22,7 +22,7 @@ This project is a great introduction to designing reliable, loosely coupled, and
 
 ---
 
-✅ Project Goals
+##  ✅ Project Goals
 
 📨 Send a message to an SQS queue from a Lambda function
 📥 Retrieve and process messages from the same SQS queue
