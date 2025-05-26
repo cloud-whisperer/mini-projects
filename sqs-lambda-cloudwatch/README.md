@@ -50,11 +50,11 @@ This project is a great introduction to designing reliable, loosely coupled, and
     
 💡 Key Learnings & Outcomes
 
-🔁 Learned how Lambda can act as both a producer and consumer in an SQS-backed workflow
-🔑 Gained hands-on experience with IAM policies for SQS operations
-🪝 Improved understanding of decoupled, event-driven architectures and async communication
-🛠️ Practiced structuring Python code for message lifecycle management (send → receive → delete)
-📊 Strengthened ability to troubleshoot using CloudWatch Logs and confirm functional behavior step-by-step
+- 🔁 &nbsp;&nbsp;Learned how Lambda can act as both a producer and consumer in an SQS-backed workflow
+- 🔑 &nbsp;&nbsp;Gained hands-on experience with IAM policies for SQS operations
+- 🪝 &nbsp;&nbsp;Improved understanding of decoupled, event-driven architectures and async communication
+- 🛠️ &nbsp;&nbsp;Practiced structuring Python code for message lifecycle management (send → receive → delete)
+- 📊 &nbsp;&nbsp;Strengthened ability to troubleshoot using CloudWatch Logs and confirm functional behavior step-by-step
 
 
 
