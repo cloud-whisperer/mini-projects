@@ -17,7 +17,7 @@ The Lambda function is triggered manually (or by another service) and performs t
  - 🧾 &nbsp;&nbsp;**Logs key events such as sending, receiving, and deleting for full traceability.
 
 This project is a great introduction to designing reliable, loosely coupled, and asynchronous systems using native AWS services.
-<br>
+<br><br>
 
 ![Alt Text](700x400_sqs_lambda_cloudwatch_lc.jpg)
 
