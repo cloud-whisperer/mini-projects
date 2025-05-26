@@ -2,7 +2,7 @@
 
 🔁 Send and Receive Messages Seamlessly Using AWS SQS and Lambda
 
-![Alt Text](700x400_DIAGRAM_sns_lambda_lc.jpg)
+![Alt Text](700x400_sqs_lambda_cloudwatch_lc.jpg)
 
 ---
 
