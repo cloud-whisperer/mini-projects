@@ -4,9 +4,6 @@
 
 🔁 Send and Receive Messages Seamlessly Using AWS SQS and Lambda
 
-![Alt Text](700x400_sqs_lambda_cloudwatch_lc.jpg)
-
----
 
 ### 📌 Project Description
 
@@ -21,7 +18,12 @@ The Lambda function is triggered manually (or by another service) and performs t
 
 This project is a great introduction to designing reliable, loosely coupled, and asynchronous systems using native AWS services.
 
+![Alt Text](700x400_sqs_lambda_cloudwatch_lc.jpg)
+
 ---
 
-Let me know if you'd like to extend the description to include CloudWatch Logs, IAM permissions, or even SNS integrations for alerting 👀
+
+---
+
+
 
