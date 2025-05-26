@@ -3,7 +3,7 @@
 ### ✉️ *Send Email Alerts in Real-Time Using AWS SNS and Lambda Functions*
 
 
-![Alt Text](DIAGRAM_sns_lambda_lc.jpg)
+![Alt Text](700x400_DIAGRAM_sns_lambda_lc.jpg)
 
 ### 📌 Project Description
 This mini-project focused on building a lightweight event-driven architecture that sends automated email notifications using AWS Simple Notification Service (SNS) and AWS Lambda. The project demonstrates how to send alerts in response to events, showcasing a common pattern in serverless and decoupled system design.
