@@ -24,12 +24,12 @@ This project is a great introduction to designing reliable, loosely coupled, and
 
 ##  ✅ Project Goals
 
-📨 Send a message to an SQS queue from a Lambda function
-📥 Retrieve and process messages from the same SQS queue
-🟨 Use AWS Lambda as both producer and consumer in the messaging pipeline
-🧼 Automatically delete messages from the queue after processing
-🪵 Log all send/receive/delete actions in CloudWatch for observability
-🔧 What I Accomplished
+ - 📨 &nbsp;&nbsp;Send a message to an SQS queue from a Lambda function
+-  📥 &nbsp;&nbsp;Retrieve and process messages from the same SQS queue
+-  🟨 &nbsp;&nbsp;Use AWS Lambda as both producer and consumer in the messaging pipeline
+-  🧼 &nbsp;&nbsp;Automatically delete messages from the queue after processing
+-  🪵 &nbsp;&nbsp;Log all send/receive/delete actions in CloudWatch for observability
+-  🔧 &nbsp;&nbsp;What I Accomplished
 
 📦 Created an Amazon SQS Queue
     Set up a standard SQS queue with appropriate access policies to allow message sending and receiving.
