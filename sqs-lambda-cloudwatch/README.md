@@ -46,7 +46,7 @@ This project is a great introduction to designing reliable, loosely coupled, and
 📄 Logged Message Lifecycle Events
     Printed out sent message IDs, received message bodies, and confirmation of deletion steps for full operational visibility.
     
-    --- 
+  --- 
     
 💡 Key Learnings & Outcomes
 
