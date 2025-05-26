@@ -22,8 +22,36 @@ This project is a great introduction to designing reliable, loosely coupled, and
 
 ---
 
+✅ Project Goals
 
----
+📨 Send a message to an SQS queue from a Lambda function
+📥 Retrieve and process messages from the same SQS queue
+🟨 Use AWS Lambda as both producer and consumer in the messaging pipeline
+🧼 Automatically delete messages from the queue after processing
+🪵 Log all send/receive/delete actions in CloudWatch for observability
+🔧 What I Accomplished
+
+📦 Created an Amazon SQS Queue
+    Set up a standard SQS queue with appropriate access policies to allow message sending and receiving.
+
+🧑‍💻 Wrote and Deployed a Dual-Purpose Lambda Function
+    Developed a Python-based Lambda function that sends a message to the queue, receives a message, and deletes it—executing the full SQS workflow.
+
+🔐 Configured Environment Variables and IAM Permissions
+    Used the SQS_QUEUE_URL environment variable for queue targeting and attached precise IAM policies to grant SendMessage, ReceiveMessage, and DeleteMessage permissions.
+
+🧪 Manually Triggered the Lambda Function
+    Used the Lambda Console's "Test" feature to simulate an event, verify end-to-end message delivery, and observe logs in CloudWatch.
+
+📄 Logged Message Lifecycle Events
+    Printed out sent message IDs, received message bodies, and confirmation of deletion steps for full operational visibility.
+💡 Key Learnings & Outcomes
+
+🔁 Learned how Lambda can act as both a producer and consumer in an SQS-backed workflow
+🔑 Gained hands-on experience with IAM policies for SQS operations
+🪝 Improved understanding of decoupled, event-driven architectures and async communication
+🛠️ Practiced structuring Python code for message lifecycle management (send → receive → delete)
+📊 Strengthened ability to troubleshoot using CloudWatch Logs and confirm functional behavior step-by-step
 
 
 
