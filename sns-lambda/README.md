@@ -19,8 +19,6 @@ The project demonstrates how to send alerts in response to events, showcasing a 
  - 🔧  &nbsp;&nbsp;Confirm delivery by testing with a sample event.
 
 
-![Alt Text](SNS_LAMBDA_lc_WATERMARKED_lc.jpg)
-
 ---
 
 ## 🔧 What I Accomplished
