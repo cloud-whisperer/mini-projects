@@ -15,7 +15,7 @@ The Lambda function is triggered manually (or by another service) and performs t
  - 📥 &nbsp;&nbsp;**Receives messages** from the queue.
  - 🗑️ &nbsp;&nbsp;**Deletes the messages** after processing.
  - 🧾 &nbsp;&nbsp;**Logs key events such as sending, receiving, and deleting for full traceability.
-
+<br>
 This project is a great introduction to designing reliable, loosely coupled, and asynchronous systems using native AWS services.
 <br><br>
 
