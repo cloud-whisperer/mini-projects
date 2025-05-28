@@ -47,11 +47,11 @@ This mini-project showcases how to set up a **Network Load Balancer (NLB)** that
 ---
 
 ## 💡   Key Learnings & Outcomes
--  ⚙️   Gained practical experience in deploying and configuring AWS Network Load Balancer
--  🧩   Understood the role of Target Groups in connecting load balancers to backend resources
--  🔐   Strengthened knowledge of security groups, TCP traffic flow, and AWS network architecture
--  🗺️   Learned how to design and test high availability by spanning multiple AZs
--  📈   Increased confidence in troubleshooting load balancing behavior using EC2 instance logs and connectivity tests
+-  ⚙️   &nbsp;&nbsp;Gained practical experience in deploying and configuring AWS Network Load Balancer
+-  🧩   &nbsp;&nbsp;Understood the role of Target Groups in connecting load balancers to backend resources
+-  🔐   &nbsp;&nbsp;Strengthened knowledge of security groups, TCP traffic flow, and AWS network architecture
+-  🗺️   &nbsp;&nbsp;Learned how to design and test high availability by spanning multiple AZs
+-  📈   &nbsp;&nbsp;Increased confidence in troubleshooting load balancing behavior using EC2 instance logs and connectivity tests
 
 ---
 
