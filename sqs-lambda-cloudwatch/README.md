@@ -46,7 +46,8 @@ The Lambda function is triggered manually (or by another service) and performs t
       Used the Lambda Console's "Test" feature to simulate an event, verify end-to-end message delivery,<br> 
       and observe logs in CloudWatch.
 - 📄 &nbsp;&nbsp;Logged Message Lifecycle Events<br>
-      Printed out sent message IDs, received message bodies, and confirmation of deletion steps for full operational visibility.
+      Printed out sent message IDs, received message bodies, and confirmation of deletion steps for full <br>
+      operational visibility.
     
   --- 
     
