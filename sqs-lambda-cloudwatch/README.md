@@ -5,11 +5,11 @@
 🔁 Send and Receive Messages Seamlessly Using AWS SQS and Lambda
 
 
-# 📌 Project Description
+## 📌 Project Description
 
 This mini-project demonstrates a foundational event-driven workflow by enabling an AWS Lambda function to both **send messages to** and **receive messages from** an Amazon Simple Queue Service (SQS) queue. It showcases a **bi-directional communication pattern**, commonly used in decoupled microservice architectures.
 
-# The Lambda function is triggered manually (or by another service) and performs the following actions:
+## The Lambda function is triggered manually (or by another service) and performs the following actions:
  - 📬 &nbsp;&nbsp;Send an email when an event occurs
  - ✅ &nbsp;&nbsp;**Sends a message** to the SQS queue.
  - 📥 &nbsp;&nbsp;**Receives messages** from the queue.
