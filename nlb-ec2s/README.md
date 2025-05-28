@@ -15,6 +15,6 @@ This mini-project showcases how to set up a **Network Load Balancer (NLB)** that
 - 🧾   &nbsp;&nbsp;**Logs health checks and connection attempts for visibility and debugging**<br><br>
 
 
-![Alt Text](network_diagram_main_lc.jpg)
+![Alt Text](700x500_network_diagram_main_lc.jpg)
 
 ---
