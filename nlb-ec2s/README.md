@@ -8,11 +8,11 @@ This mini-project showcases how to set up a **Network Load Balancer (NLB)** that
 <br>
 ## The architecture performs the following actions:
 - 🔗   &nbsp;&nbsp;Listens for incoming TCP traffic on port 80  
-<br>- 📍   &nbsp;&nbsp;Distributes connections to EC2 instances in multiple AZs  
-<br>- 📈   &nbsp;&nbsp;Monitors instance health via HTTP path-based health checks  
-<br>- 📤   &nbsp;&nbsp;Ensures high availability through cross-AZ load balancing  
-<br>- 🔒   &nbsp;&nbsp;Applies Security Groups to permit HTTP access from the internet  
-<br>- 🧾   &nbsp;&nbsp;**Logs health checks and connection attempts for visibility and debugging**
+- 📍   &nbsp;&nbsp;Distributes connections to EC2 instances in multiple AZs  
+- 📈   &nbsp;&nbsp;Monitors instance health via HTTP path-based health checks  
+- 📤   &nbsp;&nbsp;Ensures high availability through cross-AZ load balancing  
+- 🔒   &nbsp;&nbsp;Applies Security Groups to permit HTTP access from the internet  
+- 🧾   &nbsp;&nbsp;**Logs health checks and connection attempts for visibility and debugging**
 
 
 ![Alt Text](700x500_network_diagram_lc.jpg)
