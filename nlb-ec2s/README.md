@@ -12,8 +12,9 @@ This mini-project showcases how to set up a **Network Load Balancer (NLB)** that
 - 📈   &nbsp;&nbsp;Monitors instance health via HTTP path-based health checks  
 - 📤   &nbsp;&nbsp;Ensures high availability through cross-AZ load balancing  
 - 🔒   &nbsp;&nbsp;Applies Security Groups to permit HTTP access from the internet  
-- 🧾   &nbsp;&nbsp;**Logs health checks and connection attempts for visibility and debugging**<br>
+- 🧾   &nbsp;&nbsp;**Logs health checks and connection attempts for visibility and debugging**<br><br>
 
-<br>
+
 ![Alt Text](700x500_network_diagram_lc.jpg)
+
 ---
