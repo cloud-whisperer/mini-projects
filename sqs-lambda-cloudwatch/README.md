@@ -51,7 +51,7 @@ The Lambda function is triggered manually (or by another service) and performs t
     
   --- 
     
-💡 Key Learnings & Outcomes
+## 💡 Key Learnings & Outcomes
 
 - 🔁 &nbsp;&nbsp;Learned how Lambda can act as both a producer and consumer in an SQS-backed workflow.
 - 🔑 &nbsp;&nbsp;Gained hands-on experience with IAM policies for SQS operations.
