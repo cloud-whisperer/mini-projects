@@ -6,7 +6,7 @@
 ## 📌 Project Description  
 This mini-project showcases how to set up a **Network Load Balancer (NLB)** that distributes **TCP traffic** across **two EC2 instances** located in different **Availability Zones (AZs)** within the **same VPC and Region**. It's designed to be lightweight and beginner-friendly while demonstrating core AWS networking concepts like **layer 4 load balancing**, **target groups**, and **cross-AZ high availability**.
 
-
+<br>
 <h3>The architecture performs the following actions:</h3>
 - 🔗   &nbsp;&nbsp;Listens for incoming TCP traffic on port 80  
 - 📍   &nbsp;&nbsp;Distributes connections to EC2 instances in multiple AZs  
