@@ -37,17 +37,17 @@ This project is a great introduction to designing reliable, loosely coupled, and
 
 - 📦 &nbsp;&nbsp;Created an Amazon SQS Queue<br>
       Set up a standard SQS queue with appropriate access policies to allow message sending and receiving.
-- 🧑‍💻 &nbsp;&nbsp;Wrote and Deployed a Dual-Purpose Lambda Function
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Developed a Python-based Lambda function that sends a message to the queue, receives a message,
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and deletes it—executing the full SQS workflow.
-- 🔐 &nbsp;&nbsp;Configured Environment Variables and IAM Permissions
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Used the SQS_QUEUE_URL environment variable for queue targeting and attached precise IAM policies to grant SendMessage, 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ReceiveMessage, and DeleteMessage permissions.
-- 🧪 &nbsp;&nbsp;Manually Triggered the Lambda Function
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Used the Lambda Console's "Test" feature to simulate an event, verify end-to-end message delivery, and observe logs in 
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CloudWatch.
-- 📄 &nbsp;&nbsp;Logged Message Lifecycle Events
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Printed out sent message IDs, received message bodies, and confirmation of deletion steps for full operational visibility.
+- 🧑‍💻 &nbsp;&nbsp;Wrote and Deployed a Dual-Purpose Lambda Function<br.
+      Developed a Python-based Lambda function that sends a message to the queue, receives a message,<br>
+      and deletes it—executing the full SQS workflow.
+- 🔐 &nbsp;&nbsp;Configured Environment Variables and IAM Permissions<br>
+      Used the SQS_QUEUE_URL environment variable for queue targeting and attached precise IAM policies to grant SendMessage,<br> 
+      ReceiveMessage, and DeleteMessage permissions.
+- 🧪 &nbsp;&nbsp;Manually Triggered the Lambda Function<br>
+      Used the Lambda Console's "Test" feature to simulate an event, verify end-to-end message delivery, and observe logs in<br> 
+      CloudWatch.
+- 📄 &nbsp;&nbsp;Logged Message Lifecycle Events<br>
+      Printed out sent message IDs, received message bodies, and confirmation of deletion steps for full operational visibility.
     
   --- 
     
