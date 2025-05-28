@@ -14,7 +14,6 @@ This mini-project showcases how to set up a **Network Load Balancer (NLB)** that
 <br>- 🔒   &nbsp;&nbsp;Applies Security Groups to permit HTTP access from the internet  
 <br>- 🧾   &nbsp;&nbsp;**Logs health checks and connection attempts for visibility and debugging**
 
-This project is a great introduction to **high-availability network architectures** and **layer 4 load balancing** using AWS-native services.
 
 ![Alt Text](700x500_network_diagram_lc.jpg)
 ---
