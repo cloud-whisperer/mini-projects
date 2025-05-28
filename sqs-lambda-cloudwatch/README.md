@@ -35,8 +35,8 @@ This project is a great introduction to designing reliable, loosely coupled, and
 
 ## 🔧 What I Accomplished
 
-- 📦 &nbsp;&nbsp;Created an Amazon SQS Queue
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set up a standard SQS queue with appropriate access policies to allow message sending and receiving.
+- 📦 &nbsp;&nbsp;Created an Amazon SQS Queue<br>
+      Set up a standard SQS queue with appropriate access policies to allow message sending and receiving.
 - 🧑‍💻 &nbsp;&nbsp;Wrote and Deployed a Dual-Purpose Lambda Function
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Developed a Python-based Lambda function that sends a message to the queue, receives a message,
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and deletes it—executing the full SQS workflow.
