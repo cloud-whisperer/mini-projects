@@ -19,7 +19,7 @@ This mini-project showcases how to set up a **Network Load Balancer (NLB)** that
 
 ---
 
-✅ **Project Goals**
+## ✅ Project Goals
 🌐   Deploy a Network Load Balancer (NLB) to manage TCP traffic across EC2 instances
 🛡️   Ensure high availability by distributing traffic across two Availability Zones
 🎯   Register EC2 instances as targets in a Target Group for the NLB
@@ -28,7 +28,7 @@ This mini-project showcases how to set up a **Network Load Balancer (NLB)** that
 
 ---
 
-🔧 **What I Accomplished**
+## 🔧 What I Accomplished
 🏗️   Created a Network Load Balancer
 Launched an NLB in the same VPC and Availability Zones as the EC2 instances to handle TCP-based load distribution.
 
@@ -46,7 +46,7 @@ Used browser-based and CLI tests to verify round-robin traffic distribution and 
 
 ---
 
-💡 **Key Learnings & Outcomes**
+## 💡   Key Learnings & Outcomes
 ⚙️   Gained practical experience in deploying and configuring AWS Network Load Balancer
 🧩   Understood the role of Target Groups in connecting load balancers to backend resources
 🔐   Strengthened knowledge of security groups, TCP traffic flow, and AWS network architecture
