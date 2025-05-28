@@ -1,4 +1,4 @@
-### 📦 SQS x Lambda: Bi-Directional Message Exchange Project
+# 📦 SQS x Lambda: Bi-Directional Message Exchange Project
 
 ---
 
