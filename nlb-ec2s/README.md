@@ -29,29 +29,29 @@ This mini-project showcases how to set up a **Network Load Balancer (NLB)** that
 ---
 
 ## 🔧 What I Accomplished
-🏗️   Created a Network Load Balancer
+🏗️   Created a Network Load Balancer<br>
 Launched an NLB in the same VPC and Availability Zones as the EC2 instances to handle TCP-based load distribution.
 
-🖥️   Deployed Two EC2 Instances
+🖥️   Deployed Two EC2 Instances<br>
 Provisioned two Amazon Linux 2 EC2 instances in separate subnets across different AZs and installed simple web servers.
 
-🗂️   Registered EC2s in a Target Group
+🗂️   Registered EC2s in a Target Group<br>
 Configured a TCP-based Target Group and added both EC2 instances, enabling cross-zone load balancing.
 
-🔐   Applied Security Group Settings
+🔐   Applied Security Group Settings<br>
 Ensured security groups allowed TCP traffic on the NLB’s listening port (e.g., port 80) and that EC2 instances accepted traffic from the NLB.
 
-🔍   Validated Load Balancing Behavior
+🔍   Validated Load Balancing Behavior<br>
 Used browser-based and CLI tests to verify round-robin traffic distribution and ensure resilience during EC2 failure scenarios.
 
 ---
 
 ## 💡   Key Learnings & Outcomes
-⚙️   Gained practical experience in deploying and configuring AWS Network Load Balancer
-🧩   Understood the role of Target Groups in connecting load balancers to backend resources
-🔐   Strengthened knowledge of security groups, TCP traffic flow, and AWS network architecture
-🗺️   Learned how to design and test high availability by spanning multiple AZs
-📈   Increased confidence in troubleshooting load balancing behavior using EC2 instance logs and connectivity tests
+-  ⚙️   Gained practical experience in deploying and configuring AWS Network Load Balancer
+-  🧩   Understood the role of Target Groups in connecting load balancers to backend resources
+-  🔐   Strengthened knowledge of security groups, TCP traffic flow, and AWS network architecture
+-  🗺️   Learned how to design and test high availability by spanning multiple AZs
+-  📈   Increased confidence in troubleshooting load balancing behavior using EC2 instance logs and connectivity tests
 
 ---
 
