@@ -14,7 +14,7 @@ This mini-project demonstrates a foundational event-driven workflow by enabling 
  - ✅ &nbsp;&nbsp;**Sends a message** to the SQS queue.
  - 📥 &nbsp;&nbsp;**Receives messages** from the queue.
  - 🗑️ &nbsp;&nbsp;**Deletes the messages** after processing.
- - 🧾 &nbsp;&nbsp;**Logs key events such as sending, receiving, and deleting for full traceability.
+ - 🧾 &nbsp;&nbsp;**Logs key events such as sending, receiving, and deleting for full traceability.**
 <br>
 
 
