@@ -30,19 +30,19 @@ This mini-project showcases how to set up a **Network Load Balancer (NLB)** that
 
 ## 🔧 What I Accomplished
 🏗️   Created a Network Load Balancer<br>
-&nbsp;&nbsp;Launched an NLB in the same VPC and Availability Zones as the EC2 instances to handle TCP-based load distribution.
+&nbsp;&nbsp;&nbsp;&nbsp;Launched an NLB in the same VPC and Availability Zones as the EC2 instances to handle TCP-based load distribution.
 
 🖥️   Deployed Two EC2 Instances<br>
-&nbsp;&nbsp;Provisioned two Amazon Linux 2 EC2 instances in separate subnets across different AZs and installed simple web servers.
+&nbsp;&nbsp;&nbsp;&nbsp;Provisioned two Amazon Linux 2 EC2 instances in separate subnets across different AZs and installed simple web servers.
 
 🗂️   Registered EC2s in a Target Group<br>
-&nbsp;&nbsp;Configured a TCP-based Target Group and added both EC2 instances, enabling cross-zone load balancing.
+ &nbsp;&nbsp;&nbsp;&nbsp;Configured a TCP-based Target Group and added both EC2 instances, enabling cross-zone load balancing.
 
 🔐   Applied Security Group Settings<br>
-&nbsp;&nbsp;Ensured security groups allowed TCP traffic on the NLB’s listening port (e.g., port 80) and that EC2 instances accepted traffic from the NLB.
+&nbsp;&nbsp;&nbsp;&nbsp;Ensured security groups allowed TCP traffic on the NLB’s listening port (e.g., port 80) and that EC2 instances accepted traffic from the NLB.
 
 🔍   Validated Load Balancing Behavior<br>
-&nbsp;&nbsp;Used browser-based and CLI tests to verify round-robin traffic distribution and ensure resilience during EC2 failure scenarios.
+&nbsp;&nbsp;&nbsp;&nbsp;Used browser-based and CLI tests to verify round-robin traffic distribution and ensure resilience during EC2 failure scenarios.
 
 ---
 
