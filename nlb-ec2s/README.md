@@ -18,9 +18,6 @@ This mini-project showcases how to set up a **Network Load Balancer (NLB)** that
 ![Alt Text](700x500_network_diagram_main_lc.jpg)
 
 ---
-Here’s your project summary with the requested formatting:
-
----
 
 ✅ **Project Goals**
 🌐   Deploy a Network Load Balancer (NLB) to manage TCP traffic across EC2 instances
