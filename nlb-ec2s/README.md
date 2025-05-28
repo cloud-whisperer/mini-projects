@@ -53,6 +53,4 @@ This mini-project showcases how to set up a **Network Load Balancer (NLB)** that
 -  🗺️   &nbsp;&nbsp;Learned how to design and test high availability by spanning multiple AZs
 -  📈   &nbsp;&nbsp;Increased confidence in troubleshooting load balancing behavior using EC2 instance logs and connectivity tests
 
----
 
-Let me know if you'd like it translated to German, adjusted for different AWS services, or exported in a specific format!
