@@ -36,7 +36,7 @@ The Lambda function is triggered manually (or by another service) and performs t
 
 - 📦 &nbsp;&nbsp;Created an Amazon SQS Queue<br>
       Set up a standard SQS queue with appropriate access policies to allow message sending and receiving.
-- 🧑‍💻 &nbsp;&nbsp;Wrote and Deployed a Dual-Purpose Lambda Function<br.
+- 🧑‍💻 &nbsp;&nbsp;Wrote and deployed a dual-purpose Lambda Function.<br>
       Developed a Python-based Lambda function that sends a message 
       to the queue, receives a message, and deletes it—executing the full SQS workflow.
 - 🔐 &nbsp;&nbsp;Configured Environment Variables and IAM Permissions<br>
