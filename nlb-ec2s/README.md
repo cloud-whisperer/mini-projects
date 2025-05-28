@@ -19,12 +19,12 @@ This mini-project showcases how to set up a **Network Load Balancer (NLB)** that
 
 ---
 
-## ✅ Project Goals
-🌐   Deploy a Network Load Balancer (NLB) to manage TCP traffic across EC2 instances
-🛡️   Ensure high availability by distributing traffic across two Availability Zones
-🎯   Register EC2 instances as targets in a Target Group for the NLB
-🔒   Configure and attach security groups to control inbound/outbound traffic
-📶   Verify connectivity and load balancing across AZs using public IP
+## ✅ Project Goals<br>
+🌐   Deploy a Network Load Balancer (NLB) to manage TCP traffic across EC2 instances.<br>
+🛡️   Ensure high availability by distributing traffic across two Availability Zones.<br>
+🎯   Register EC2 instances as targets in a Target Group for the NLB.<br>
+🔒   Configure and attach security groups to control inbound/outbound traffic.<br>
+📶   Verify connectivity and load balancing across AZs using public IP.<br>
 
 ---
 
