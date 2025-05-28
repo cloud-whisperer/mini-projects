@@ -2,7 +2,7 @@
 
 ---
 
-🔁 Send and Receive Messages Seamlessly Using AWS SQS and Lambda
+🔁 *Send and Receive Messages Seamlessly Using AWS SQS and Lambda*
 
 
 ## 📌 Project Description
