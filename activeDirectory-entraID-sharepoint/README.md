@@ -18,7 +18,6 @@ This mini-project demonstrates a smooth and secure migration workflow from **on-
 - 📤 &nbsp;&nbsp;**Migrate file shares** from on-premises File Server to SharePoint Online Document Library  
 - 🌐 &nbsp;&nbsp;**Use Entra ID** for cloud-based authentication and authorization  
 - ✅ &nbsp;&nbsp;**Validate user access** by logging in and confirming visibility and access to files  
-- 🧹 &nbsp;&nbsp;**Clean up** by removing the test user and group to maintain a clean directory
 
 
 
