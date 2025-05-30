@@ -14,7 +14,7 @@ This mini-project demonstrates how to **securely assign role-based access** usin
 - 🔐   &nbsp;&nbsp;**Assigns the built-in `Reader` role** to the group  
 - 🧪   &nbsp;&nbsp;**Tests user access** in a new browser window or incognito session  
 - 🚫   &nbsp;&nbsp;**Validates restricted access** — user can **view resources** but **not create/delete/modify**  
-- 🧹   &nbsp;&nbsp;**Cleans up** by deleting the test user and group (optional)
+
 
 ---
 
