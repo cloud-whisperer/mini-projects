@@ -60,10 +60,9 @@ This mini-project demonstrates how to **securely assign role-based access** usin
 ---
 
 ## 💡   Key Learnings & Outcomes
--  🧠   &nbsp;&nbsp;Learned to configure **role-based access** at group level for scalability  
--  🛡️   &nbsp;&nbsp;Understood **least privilege** and the use of **built-in roles** like `Reader`  
--  🔍   &nbsp;&nbsp;Practiced verifying access using separate sessions for realistic user simulation  
--  🏗️   &nbsp;&nbsp;Recognized how **Azure AD Groups** streamline access control in enterprise settings  
--  🧹   &nbsp;&nbsp;Discovered the importance of **cleanup** to avoid cluttering the directory  
+-  🧠   &nbsp;&nbsp;Learned to configure **role-based access** at group level for scalability.  
+-  🛡️   &nbsp;&nbsp;Understood **least privilege** and the use of **built-in roles** like `Reader`.  
+-  🔍   &nbsp;&nbsp;Practiced verifying access using separate sessions for realistic user simulation.  
+-  🏗️   &nbsp;&nbsp;Recognized how **Azure AD Groups** streamline access control in enterprise settings.  
 
 
