@@ -3,6 +3,6 @@
 <br>
 
 
-![Alt Text](700x400_sqs_lambda_cloudwatch_lc.jpg)
+![Alt Text](800x500_network_diagram_lc_WATERMARKED_lc.jpg)
 
 ---
