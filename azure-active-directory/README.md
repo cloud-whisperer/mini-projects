@@ -31,11 +31,6 @@ This mini-project demonstrates how to **securely assign role-based access** usin
 
   ![Alt Text](900x500_GITHUB_TWITTER_projekt_lc_WATERMARKED_lc.jpg)
 
-# 📢 Azure AD RBAC: Secure Role Assignment via Groups  
-🔐 *Control access with precision using Azure Active Directory roles and groups*
-
----
-
 ## ✅ Project Goals<br>
 - 👤   &nbsp;&nbsp;Create a **test user** in Azure Active Directory.<br>
 - 👥   &nbsp;&nbsp;Create a **group** to manage role-based permissions centrally.<br>
