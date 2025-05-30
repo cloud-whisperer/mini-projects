@@ -12,12 +12,12 @@ This mini-project demonstrates a smooth and secure migration workflow from **on-
 
 ## 🚀 Key Steps Simulated in This Project
 
-- 👤 &nbsp;&nbsp;**Create a user** in Entra ID (Azure AD) to simulate on-prem user identity  
-- 👥 &nbsp;&nbsp;**Add the user** to an Azure AD Security Group  
-- 🔐 &nbsp;&nbsp;**Assign a built-in role** (e.g., Reader) to the group to define access permissions  
-- 📤 &nbsp;&nbsp;**Migrate file shares** from on-premises File Server to SharePoint Online Document Library  
-- 🌐 &nbsp;&nbsp;**Use Entra ID** for cloud-based authentication and authorization  
-- ✅ &nbsp;&nbsp;**Validate user access** by logging in and confirming visibility and access to files  
+- 👤 &nbsp;&nbsp;**Create a user** in Entra ID (Azure AD) to simulate on-prem user identity.  
+- 👥 &nbsp;&nbsp;**Add the user** to an Azure AD Security Group.  
+- 🔐 &nbsp;&nbsp;**Assign a built-in role** (e.g., Reader) to the group to define access permissions.  
+- 📤 &nbsp;&nbsp;**Migrate file shares** from on-premises File Server to SharePoint Online Document Library.  
+- 🌐 &nbsp;&nbsp;**Use Entra ID** for cloud-based authentication and authorization.  
+- ✅ &nbsp;&nbsp;**Validate user access** by logging in and confirming visibility and access to files.<br><br>
 
 
 
