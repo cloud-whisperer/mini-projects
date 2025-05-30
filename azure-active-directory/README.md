@@ -2,7 +2,7 @@
 🛡️ *Manage Access Securely Using Azure Active Directory Groups and Roles*
 
 ## 📌 Project Description  
-This mini-project demonstrates how to **securely assign role-based access** using **Azure Active Directory (Azure AD)** by creating a **test user**, placing them into a **group**, and then assigning a **built-in role** (`Reader`) to that group. It includes a verification step to ensure the user can **only view but not modify** resources — following the principle of **least privilege**.
+This mini-project demonstrates how to **securely assign role-based access** using **Azure Active Directory (Azure AD)** by creating a **test user**, placing them into a **group**, and then assigning a **built-in role** (`Reader`) to that group. It includes a verification step to ensure the user can **only view but not modify** resources — following **The Principle of Least Privilege**.
 
 ---
 
