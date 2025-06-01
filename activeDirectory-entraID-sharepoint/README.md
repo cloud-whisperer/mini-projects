@@ -19,19 +19,17 @@ This mini-project demonstrates a smooth and secure migration workflow from **on-
 - 🌐 &nbsp;&nbsp;**Use Entra ID** for cloud-based authentication and authorization.  
 - ✅ &nbsp;&nbsp;**Validate user access** by logging in and confirming visibility and access to files.<br><br>
 
-
-
 ![Alt Text](800x500_network_diagram_lc_WATERMARKED_lc.jpg)
 
 ---
 
 ## ✅ Project Goals
 
-- 👤 &nbsp;&nbsp;Simulate on-prem Active Directory user migration to Entra ID (Azure AD)  
-- 👥 &nbsp;&nbsp;Create a security group and manage role-based access through group assignments  
-- 🔐 &nbsp;&nbsp;Assign a built-in Reader role to control user permissions  
-- 📂 &nbsp;&nbsp;Simulate file server migration by assigning access to SharePoint Document Libraries  
-- 🧭 &nbsp;&nbsp;Navigate Microsoft 365 environment using Entra and SharePoint online services  
+- 👤 &nbsp;&nbsp;Simulate on-prem Active Directory user migration to Entra ID (Azure AD).  
+- 👥 &nbsp;&nbsp;Create a security group and manage role-based access through group assignments.  
+- 🔐 &nbsp;&nbsp;Assign a built-in Reader role to control user permissions.  
+- 📂 &nbsp;&nbsp;Simulate file server migration by assigning access to SharePoint Document Libraries.  
+- 🧭 &nbsp;&nbsp;Navigate Microsoft 365 environment using Entra and SharePoint online services.  
 
 ---
 
@@ -56,9 +54,9 @@ This mini-project demonstrates a smooth and secure migration workflow from **on-
 
 ## 💡 Key Learnings & Outcomes
 
-- ☁️ &nbsp;&nbsp;Learned how to replicate hybrid identity management using Microsoft Entra ID  
-- 🔐 &nbsp;&nbsp;Gained experience assigning RBAC roles to Azure AD groups and validating secure access  
-- 🔄 &nbsp;&nbsp;Understood how cloud services like SharePoint integrate with Azure AD identities  
-- ⚙️ &nbsp;&nbsp;Improved familiarity with Microsoft 365 tools and their administrative workflows  
+- ☁️ &nbsp;&nbsp;Learned how to replicate hybrid identity management using Microsoft Entra ID.  
+- 🔐 &nbsp;&nbsp;Gained experience assigning RBAC roles to Azure AD groups and validating secure access.  
+- 🔄 &nbsp;&nbsp;Understood how cloud services like SharePoint integrate with Azure AD identities.  
+- ⚙️ &nbsp;&nbsp;Improved familiarity with Microsoft 365 tools and their administrative workflows.  
 
 
