@@ -19,7 +19,7 @@ This mini-project demonstrates a smooth and secure migration workflow from **on-
 - 🌐 &nbsp;&nbsp;**Use Entra ID** for cloud-based authentication and authorization.  
 - ✅ &nbsp;&nbsp;**Validate user access** by logging in and confirming visibility and access to files.
 
-  ![Alt Text](800x500_network_diagram_lc_WATERMARKED_lc.jpg)
+  ![Alt Text](900x500_network_diagram_lc.jpg)
 
 ---
 
