@@ -58,12 +58,7 @@ This mini-project demonstrates a smooth and secure migration workflow from **on-
 - 📁 Migrate and manage file access via SharePoint.
 - 🛡️ Reinforce access control using roles and groups.
 
----
 
-## 📝 Notes
-
-- This is a **Proof-of-Concept (PoC)** setup. For production, you’ll need network hardening, secure synchronization, conditional access, and compliance configuration.
-- Make sure your M365 trial includes SharePoint and Entra ID P1 or P2 for advanced testing.
 
 
 
