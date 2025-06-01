@@ -65,19 +65,5 @@ This mini-project demonstrates a smooth and secure migration workflow from **on-
 - This is a **Proof-of-Concept (PoC)** setup. For production, you’ll need network hardening, secure synchronization, conditional access, and compliance configuration.
 - Make sure your M365 trial includes SharePoint and Entra ID P1 or P2 for advanced testing.
 
----
 
-## 📂 Recommended Add-Ons (Optional)
-
-- 🔐 Conditional Access Policies (Entra ID)
-- 📊 Microsoft Defender for Identity (for threat detection)
-- 🧭 Azure Monitor or Log Analytics for auditing
-
----
-
-
-
-
-
-![Alt Text](900x500_network_diagram_lc.jpg)
 
