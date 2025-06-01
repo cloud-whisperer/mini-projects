@@ -17,7 +17,7 @@ designed for organizations transitioning to cloud-based identity and collaborati
 - 👥 &nbsp;&nbsp;**Add the user** to an Azure AD Security Group.  
 - 🔐 &nbsp;&nbsp;**Assign a built-in role** (e.g., Reader) to the group to define access permissions.  
 - 📤 &nbsp;&nbsp;**Migrate file shares** from on-premises File Server to SharePoint Online Document Library.  
-- 🌐 &nbsp;&nbsp;**Use Entra ID** for cloud-based authentication and authorization.  
+- 🌐 &nbsp;&nbsp;**Use Entra ID** for cloud-based authentication and authorization.
 - ✅ &nbsp;&nbsp;**Validate user access** by logging in and confirming visibility and access to files.<br><br>
 
   ![Alt Text](900x500_network_diagram_lc.jpg)
