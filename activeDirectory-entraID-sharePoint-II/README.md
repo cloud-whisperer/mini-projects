@@ -6,7 +6,8 @@
 
 ## 📌 Project Description
 
-This mini-project demonstrates a smooth and secure migration workflow from **on-premises Active Directory and File Servers** to **Entra ID (formerly Azure AD)** and **SharePoint Online**. It is designed for organizations transitioning to cloud-based identity and collaboration platforms.
+This mini-project demonstrates a smooth and secure migration workflow from **on-premises Active Directory and File Servers** to **Entra ID (formerly Azure AD)** and **SharePoint Online**. The projekt is
+designed for organizations transitioning to cloud-based identity and collaboration platforms.
 
 ---
 
@@ -25,13 +26,13 @@ This mini-project demonstrates a smooth and secure migration workflow from **on-
 
 ## 🧱 Core Infrastructure (Simulated)
 
-| Component                | Description                                             |
-|--------------------------|---------------------------------------------------------|
-| 🖥️ VM (DC-1)              | Windows Server VM to install and configure AD DS         |
-| 🛂 Active Directory       | Simulates on-premises identity provider                 |
-| 🔗 Entra Connect          | Tool for syncing on-prem AD identities to Entra ID      |
-| 🧑‍🤝‍🧑 Entra ID (Azure AD) | Cloud-based identity and access management              |
-| 🗂️ SharePoint Online      | Cloud file collaboration and document management system |
+| Component                 | Description                                                  |
+|---------------------------|--------------------------------------------------------------|
+| 🖥️ VM (DC-1)              | Windows Server VM to install and configure AD DS             |
+| 🛂 Active Directory       | Simulates on-premises identity provider                      |
+| 🔗 Entra Connect          | Tool for syncing on-prem AD identities to Entra ID           |
+| 🧑‍🤝‍🧑 Entra ID (Azure AD)    | Cloud-based identity and access management                   |
+| 🗂️ SharePoint Online      | Cloud file collaboration and document management system      |
 
 ---
 
