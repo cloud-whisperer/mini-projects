@@ -1,26 +1,27 @@
-# 🛡️ Cloud-Native Library Access Control System (LACS)
+# 🧭 Hybrid Identity x SharePoint Migration Lab
 
-🌐 *Secure, High-Availability, Multi-Cloud Architecture for Sensitive Data Governance*
+🔁 *Synchronize On-Premises Identity + Migrate File Shares to Microsoft Cloud Services with Zero Trust Controls*
 
 ---
 
 ## 📌 Project Description
 
-This advanced infrastructure project simulates a **Library Access Control System (LACS)** leveraging **AWS-native services, multi-cloud principles**, and **DevSecOps tooling** to enforce secure, highly available, and automated access to digital resources. It reflects enterprise-grade architecture patterns, regulatory considerations, and integration of real-world data ingestion scenarios for research or sensitive institutional environments.
+This hands-on lab simulates a **secure hybrid migration** from **on-premises Active Directory and File Server** to **Microsoft Entra ID** and **SharePoint Online**. You’ll also apply **Microsoft Purview**, **Conditional Access**, and **Log Analytics** to enforce access control, simulate Zero Trust, and validate real-world cloud behavior.
+
+Perfect for proving admin-level hybrid identity, security design, and data governance experience.
 
 ---
 
 ## 🚀 Key Steps Simulated in This Project
 
-- 🏗️ **Provision AWS infrastructure** using Python and AWS CLI (no roles attached initially).  
-- 🔐 **Create IAM users, roles, and permissions** via CloudFormation for secure identity access.  
-- 📦 **Ingest structured/unstructured data** from sources like SQL, NoSQL, logs, and IoT streams.  
-- 🔎 **Monitor and respond to traffic events** with EventBridge, Lambda, and CloudWatch.  
-- 🧠 **Configure threat detection** and auditing via CloudTrail and GuardDuty.  
-- 🔁 **Enable high-availability & self-healing** using Auto Scaling, SNS, and SQS.  
-- 🛜 **Route securely via load balancer**, with encryption and logging.  
-- 📚 **Store and govern** files in Amazon S3 with custom bucket policies and VPC endpoints.  
-- 🏥 **Simulate compliance workflows** for healthcare or research-sensitive environments.  
+- 🖥️ **Deploy Windows Server 2022 VM** in Azure as `DC-1`.  
+- 🛂 **Install & configure Active Directory Domain Services** to simulate a real-world domain.  
+- 🔗 **Set up Microsoft Entra Connect** to sync identities from on-prem AD to Microsoft Entra ID.  
+- 📁 **Simulate a File Server** on `DC-1` by creating and sharing folders.  
+- 📤 **Migrate files** to SharePoint Online using structured, label-ready folders.  
+- 🛡️ **Enable Conditional Access Policies** for user + device + location control.  
+- 🧪 **Validate secure access** by testing cloud sign-ins and Purview label behavior.  
+- 🧹 **Clean up all resources** to avoid incurring cost after testing.<br><br>
 
    ![Alt Text](900x500_Step_7_Network_diagram_lc_WATERMARK_lc.jpg)
 
@@ -28,42 +29,85 @@ This advanced infrastructure project simulates a **Library Access Control System
 
 ## 🧱 Core Infrastructure (Simulated)
 
-| Component                      | Description                                                                 |
-|-------------------------------|-----------------------------------------------------------------------------|
-| 🖥️ EC2 (no IAM role)           | Simulates minimal-trust, legacy-like server initiating secure CLI actions. |
-| 🔐 IAM Policies & Roles        | Built for granular, least-privilege enforcement and automation.            |
-| 📜 CloudFormation              | Used to automate consistent policy and resource creation.                  |
-| 🪣 Amazon S3                   | Acts as secure data lake and long-term archival store.                     |
-| 🕸️ VPC Endpoints (Gateway)     | Ensures private access to S3 for compliant network behavior.               |
-| 🌍 Application Load Balancer   | Fronts access with WAF and TLS termination.                                |
-| 📡 EventBridge + Lambda        | Detect and respond to suspicious or critical traffic behavior.             |
-| 📬 SNS + SQS                   | Automate notifications and remediation pipelines.                          |
-| 🔍 CloudTrail + GuardDuty      | Provides auditing, anomaly detection, and logging insights.                |
+| Component               | Description                                                              |
+|------------------------|--------------------------------------------------------------------------|
+| 🖥️ Azure VM (DC-1)      | Hosts Active Directory Domain Services (AD DS)                            |
+| 🛂 Active Directory     | Simulates an on-premises identity provider                               |
+| 🔗 Entra Connect        | Synchronizes on-prem AD users to Microsoft Entra ID                      |
+| 👥 Microsoft Entra ID   | Cloud identity + access management platform (formerly Azure AD)          |
+| 🗂️ SharePoint Online    | Serves as the modern destination for migrated file shares                |
+| 🧠 Microsoft Purview    | Enables auditing, labeling, and data classification                      |
+| 🔐 Conditional Access   | Applies Zero Trust enforcement based on identity, location, and device   |
+| 📊 Log Analytics        | Visualizes access logs and label telemetry across Microsoft services     |
 
 ---
 
 ## 🧪 Testing & Validation
 
-- 🔐 Run secure AWS CLI actions from EC2 instance with credentials pulled via Secrets Manager.
-- 🛡️ Confirm access policies block public access and allow only tagged resources.
-- 📂 Validate objects uploaded from EC2 to S3 appear in the correct folder and have encryption.
-- 🧠 Trigger event simulation (e.g., failed login, unusual access) and validate Lambda/SNS action.
+### ✅ Summary Table (Mit Ikons)
+
+| 🔢 Step | Goal                                | Tool                      |
+|--------|-------------------------------------|---------------------------|
+| 1️⃣     | Login as `testuser1`                | `portal.office.com`       |
+| 2️⃣     | Open SharePoint Online              | M365 App Launcher         |
+| 3️⃣     | Access labeled document             | Document Library          |
+| 4️⃣     | Confirm identity is cloud-native    | Entra > Sign-in Logs      |
+| 5️⃣     | Trigger blocked access scenario     | VPN or excluded location  |
+
+### 🧠 Identity Behavior Confirmations
+
+| 🔍 What to Confirm                         | 📌 Status | 🧾 Evidence Provided                                     |
+|------------------------------------------|-----------|----------------------------------------------------------|
+| Entra-issued token (cloud-only)          | ✅        | Token issuer = Entra ID, Auth method = "Previously satisfied" |
+| No legacy auth prompts                   | ✅        | Used InPrivate session, no domain pop-ups                |
+| Login is audited in Entra Sign-in Logs   | ✅        | Validated sign-in via M365 > Microsoft Entra             |
+| Labels trigger expected access controls  | ✅        | Audited in Purview Activity Explorer                     |
+
+---
+
+## 🛡️ Conditional Access & Risk-Based Access (Step 7)
+
+### 🔐 What Was Implemented
+
+- ✅ **Policy Name**: Block Untrusted Locations  
+- 👤 **Targeted User**: `testuser1`  
+- 🌍 **Condition**: Exclude *Named Locations*  
+- ⛔ **Access Decision**: Block login from all others  
+- 🔁 **Simulation**: Validated using VPN / foreign IP  
+
+### 🎯 Value of This Step
+
+| 🔐 | Real-World Zero Trust: enforce identity, location, and risk-based access     |
+|------|------------------------------------------------------------------------|
+| 🛠️ | Practical Conditional Access design + rollback simulation                  |
+| 🌍 | Cross-cloud security skill: applies to AWS/GCP federated identity setups   |
+| 💼 | In-demand knowledge for regulated industries & security roles              |
+| 🚀 | Progress toward DevSecOps / Cloud Architect roles                          |
 
 ---
 
 ## 🧹 Clean-Up Checklist
 
-- 🧼 Remove created IAM roles, policies, and test users.
-- 🗑️ Empty and delete S3 buckets with test data.
-- 💻 Decommission EC2 instance and deregister from load balancer.
-- 🔕 Remove CloudWatch alarms, SNS topics, and associated Lambda functions.
+- 🧼 Remove test users/groups from Microsoft Entra ID  
+- 💻 Delete Azure VM (DC-1) and remove network resources  
+- 🗑️ Delete files/folders from SharePoint Online  
+- 📜 Remove Conditional Access policy if persistent tenant is in use  
+- 📉 Stop Log Analytics and purge diagnostic settings  
 
 ---
 
 ## 🎯 Learning Outcomes
 
-- 🔒 Deepen understanding of **identity-first security** across hybrid environments.
-- 📡 Master **event-driven automation** using Lambda, SNS, and EventBridge.
+- 🔁 Demonstrated real-world **hybrid identity integration** with Entra ID & AD DS  
+- 📁 Executed **file migration & permission mapping** from on-prem to SharePoint  
+- 🧠 Applied **Microsoft Purview** for classification, labeling, and audit trails  
+- 🛡️ Designed and simulated **Zero Trust policies** using Conditional Access  
+- 📊 Visualized and validated activity using **Log Analytics & Entra Logs**  
+
+---
+
+> 💬 *Would you like this version exported as a PDF, shared to LinkedIn, or added as a portfolio case study? Let me know, I’ll package it up perfectly for recruiters.*
+
 - 📁 Apply **secure file handling and access governance** using bucket policies and endpoints.
 - ⚙️ Practice using **DevSecOps pipelines** with Infrastructure-as-Code and observability.
 - 🌐 Explore real-world **multi-cloud readiness** and **compliance-driven design**.
