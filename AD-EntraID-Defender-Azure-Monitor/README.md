@@ -1,4 +1,4 @@
-# 🧭 Hybrid Identity x SharePoint Migration Lab
+# 🧭 Hybrid Identity x File Server Migration Projekt
 
 🔁 *Synchronize On-Premises Identity + Migrate File Shares to Microsoft Cloud Services with Zero Trust Controls*
 
