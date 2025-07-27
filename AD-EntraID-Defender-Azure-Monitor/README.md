@@ -6,9 +6,9 @@
 
 ## 📌 Project Description
 
-This hands-on lab simulates a **secure hybrid migration** from **on-premises Active Directory and File Server** to **Microsoft Entra ID** and **SharePoint Online**. You’ll also apply **Microsoft Purview**, **Conditional Access**, and **Log Analytics** to enforce access control, simulate Zero Trust, and validate real-world cloud behavior.
+This Proof of Concept (PoC) showcases a **secure hybrid migration** from **on-premises Active Directory and File Server** to **Microsoft Entra ID** and **SharePoint Online**. The project integrates **Microsoft Purview**, **Conditional Access**, and **Log Analytics** to demonstrate advanced access control, simulate a Zero Trust model, and validate cloud-native security behavior.
 
-Perfect for proving admin-level hybrid identity, security design, and data governance experience.
+Designed to highlight practical skills in **hybrid identity architecture**, **enterprise security design**, and **cloud data governance**—ideal for recruiters seeking hands-on, admin-level expertise in secure Microsoft 365 migrations.
 
 ---
 
@@ -20,7 +20,7 @@ Perfect for proving admin-level hybrid identity, security design, and data gover
 - 📁 **Simulate a File Server** on `DC-1` by creating and sharing folders.  
 - 📤 **Migrate files** to SharePoint Online using structured, label-ready folders.  
 - 🛡️ **Enable Conditional Access Policies** for user + device + location control.  
-- 🧪 **Validate secure access** by testing cloud sign-ins and Purview label behavior.  
+- 🧪 **Validate secure access** by testing cloud sign-ins and Purview label behaviour.  
 - 🧹 **Clean up all resources** to avoid incurring cost after testing.<br><br>
 
    ![Alt Text](900x500_Step_7_Network_diagram_lc_WATERMARK_lc.jpg)
@@ -104,13 +104,7 @@ Perfect for proving admin-level hybrid identity, security design, and data gover
 - 🛡️ Designed and simulated **Zero Trust policies** using Conditional Access  
 - 📊 Visualized and validated activity using **Log Analytics & Entra Logs**  
 
----
 
-> 💬 *Would you like this version exported as a PDF, shared to LinkedIn, or added as a portfolio case study? Let me know, I’ll package it up perfectly for recruiters.*
-
-- 📁 Apply **secure file handling and access governance** using bucket policies and endpoints.
-- ⚙️ Practice using **DevSecOps pipelines** with Infrastructure-as-Code and observability.
-- 🌐 Explore real-world **multi-cloud readiness** and **compliance-driven design**.
 
 
 
