@@ -20,7 +20,7 @@ This mini-project demonstrates building a **secure AWS logging and monitoring en
 * 🛂   **Create IAM users and policies** for log monitoring and publishing access.
 * ⚖️   **Deploy an Application Load Balancer** and attach an existing EC2 instance for web traffic routing.
 
-  ![Alt Text](800x500_network_diagram_lc_WATERMARKED_lc.jpg)
+  ![Alt Text](900x500_CloudTraill_WATERMARK_lc.jpg)
 
 ---
 
