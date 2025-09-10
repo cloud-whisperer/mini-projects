@@ -34,21 +34,6 @@ This mini-project demonstrates building a **secure AWS logging and monitoring en
 
 ---
 
-## 🔧 What I Accomplished
-
-* 🧑‍💻   Created a VPC with two public subnets across availability zones.
-* 📜   Configured **CloudTrail** with validation enabled to ensure tamper-proof logs.
-* 📦   Deployed an **S3 bucket** for CloudTrail with secure access controls.
-* 🔔   Provisioned an **SNS topic** and integrated with email for security alerts.
-* 📥   Created an **SQS queue** and subscribed it to the SNS topic for alert processing.
-* 🛂   Defined IAM policies for:
-
-  * **log-monitor-user** → read-only S3 access for CloudTrail logs.
-  * **log-monitor-publisher** → SNS publish/subscribe permissions.
-* ⚖️   Provisioned an **Application Load Balancer**, health-checked target group, and attached an existing EC2 instance.
-
----
-
 ## 💡 Key Learnings & Outcomes
 
 * ☁️   Strengthened knowledge of **Terraform workflows** (init, plan, apply, outputs).
