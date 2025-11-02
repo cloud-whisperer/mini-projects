@@ -26,7 +26,7 @@ Designed to highlight practical skills in **serverless compute**, **permissions 
 - 📊 **Inspect logs in CloudWatch** to validate event processing.  
 - 🧹 **Clean up resources** to avoid charges.
 
-  ![Alt Text](900x500_Step_7_Network_diagram_lc_WATERMARK_lc.jpg)
+  ![Alt Text](900x500_AWS_Lambda_S3_CloudWatch._lc.jpg)
 
 ---
 
