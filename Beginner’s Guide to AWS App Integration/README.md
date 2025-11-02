@@ -44,7 +44,7 @@ Designed to highlight practical skills in **serverless compute**, **permissions 
 
 ## 🧪 Testing & Validation
 
-### ✅ Summary Table (Mit Ikons)
+### ✅ Summary Table 
 
 | 🔢 Step | Goal                                | Tool                  |
 |--------|-------------------------------------|----------------------|
