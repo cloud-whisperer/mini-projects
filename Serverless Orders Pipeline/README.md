@@ -15,6 +15,8 @@ This mini-project demonstrates a **fully serverless workflow** that ingests orde
 
 It is ideal for learning **serverless best practices**, **event-driven design**, and **IAM security** in AWS.
 
+![AWS Serverless Pipeline](900x500_Network_diagram_lc_WATERMARK_lc.jpg)
+
 ---
 
 ## 🚀 Key Steps Simulated in This Project
@@ -82,5 +84,5 @@ It is ideal for learning **serverless best practices**, **event-driven design**,
 
 ---
 
-![AWS Serverless Pipeline](800x500_serverless_pipeline_lc_WATERMARKED_lc.jpg)
+
 
