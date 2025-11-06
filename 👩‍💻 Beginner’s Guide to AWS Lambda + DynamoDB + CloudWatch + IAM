@@ -1,0 +1,83 @@
+# 📦 Serverless Order Processing Pipeline <br>(Lambda → DynamoDB → SNS → SQS)
+
+🔁 *Process and Monitor Orders in a Secure Serverless Event-Driven Architecture on AWS*
+
+---
+
+## 📌 Project Description
+
+This hands-on mini-project demonstrates a **fully serverless order processing workflow** by integrating **AWS Lambda, DynamoDB, SNS, and SQS**. It emphasizes **event-driven architecture**, **asynchronous messaging**, and **secure service access** using IAM policies.
+
+The project models a realistic **e-commerce order pipeline**, where orders are:
+1. Stored in DynamoDB  
+2. Evaluated for high-value alerts via SNS  
+3. Queued in SQS for downstream processing  
+4. Monitored through CloudWatch Logs  
+
+**Core AWS Services Used:**
+- **AWS Lambda** – processes incoming order events  
+- **DynamoDB** – persistent order storage  
+- **SNS** – high-value order alerts  
+- **SQS** – decoupled message queue  
+- **CloudWatch** – monitoring logs and metrics  
+- **IAM** – least privilege access management  
+
+---
+
+## 🚀 Step-by-Step Workflow
+
+| Step | Action | AWS Service |
+|------|--------|-------------|
+| 1️⃣ | Create DynamoDB Table (`OrdersTable`) | DynamoDB |
+| 2️⃣ | Deploy Lambda Function (`ProcessOrderFunction`) | Lambda |
+| 3️⃣ | Attach IAM Policy for DynamoDB PutItem | IAM |
+| 4️⃣ | Create SNS Topic (`HighValueOrderTopic`) | SNS |
+| 5️⃣ | Create SQS Queue (`HighValueQueue`) | SQS |
+| 6️⃣ | Subscribe SQS Queue to SNS Topic | SNS |
+| 7️⃣ | Update Lambda IAM Role for SNS & SQS | IAM |
+| 8️⃣ | Test End-to-End Workflow with Sample Order | Lambda |
+| 9️⃣ | Verify Logs, Messages, and Cleanup Resources | CloudWatch / Console |
+
+---
+
+## ✅ Project Goals
+
+- 💾 Persist order data in **DynamoDB**  
+- 🔔 Notify high-value orders via **SNS**  
+- 📬 Queue messages asynchronously in **SQS**  
+- 🔐 Apply **least privilege IAM policies** to Lambda  
+- 📊 Monitor execution using **CloudWatch Logs**
+
+---
+
+## 🔧 Achievements
+
+- 💾 **DynamoDB Table (`OrdersTable`)**  
+  - Partition key: `OrderId` (String)  
+  - Billing mode: On-demand  
+
+- 🧠 **Lambda Function (`ProcessOrderFunction`)**  
+  - Runtime: Python 3.13  
+  - Environment variables: `TABLE_NAME=OrdersTable`, `TOPIC_ARN=<SNS ARN>`  
+  - Processes orders and triggers alerts for orders > $300  
+
+- 🔔 **SNS Topic (`HighValueOrderTopic`)**  
+  - Publishes notifications for high-value orders  
+
+- 📬 **SQS Queue (`HighValueQueue`)**  
+  - Receives messages from SNS asynchronously  
+
+- 🔗 **SNS → SQS Subscription**  
+  - Ensures messages are automatically queued  
+
+- 🔐 **IAM Role (`ProcessOrderFunction-role`)**  
+  - Inline policy example:
+  ```json
+  {
+    "Version": "2012-10-17",
+    "Statement": [
+      { "Effect": "Allow", "Action": ["dynamodb:PutItem"], "Resource": "arn:aws:dynamodb:us-east-1:<account-id>:table/OrdersTable" },
+      { "Effect": "Allow", "Action": ["sns:Publish"], "Resource": "arn:aws:sns:us-east-1:<account-id>:HighValueOrderTopic" },
+      { "Effect": "Allow", "Action": ["sqs:SendMessage"], "Resource": "arn:aws:sqs:us-east-1:<account-id>:HighValueQueue" }
+    ]
+  }
