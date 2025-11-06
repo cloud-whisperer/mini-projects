@@ -1,4 +1,4 @@
-# 📦 Serverless Orders Pipeline (Lambda → DynamoDB → SNS → SQS)
+# 📦 Serverless Orders Pipeline <br>(Lambda → DynamoDB → SNS → SQS)
 
 🔁 *Process Orders Securely in a Serverless Event-Driven Architecture on AWS*
 
