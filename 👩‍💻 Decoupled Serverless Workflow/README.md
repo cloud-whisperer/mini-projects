@@ -3,7 +3,8 @@
 
 ## 📌 Project Description  
 This mini-project demonstrates how to **implement a decoupled, event-driven architecture** on AWS using **Lambda**, **SNS**, **SQS**, and **DynamoDB**. It simulates an **order processing pipeline** where one Lambda function acts as a **producer** that publishes high-value order events to an SNS topic, which then fans out messages to an **SQS queue** consumed by another Lambda function (the **consumer**).  
-All events and actions are **securely logged in CloudWatch**, following the **principles of least privilege and modular design**.
+
+<br>All events and actions are **securely logged in CloudWatch**, following the **principles of least privilege and modular design**.
 
 ---
 
