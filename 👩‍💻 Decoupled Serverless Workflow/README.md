@@ -30,7 +30,7 @@ All events and actions are **securely logged in CloudWatch**, following the **pr
 
 ---
 
-![Alt Text](900x500_GITHUB_TWITTER_projekt_lc_WATERMARKED_lc.jpg)
+![Alt Text](900x500_Lambda_SQS_Triggers_WATERMARK_lc.jpg)
 
 ## ✅ Project Goals  
 - ⚙️ &nbsp;&nbsp;Create a **producer Lambda** that publishes events to an **SNS topic**.  
