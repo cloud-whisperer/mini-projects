@@ -30,6 +30,9 @@ Designed to highlight practical skills in **serverless compute**, **database ope
 - 📈 **Inspect logs in CloudWatch** to validate order processing.  
 - 🧹 **Clean up resources** to avoid charges.  
 
+![Workflow Diagram](900x500_Step_Functions_DynamoDB_SNS_WATERMARK_lc.jpg)
+![Workflow Diagram](900x500_Step_Functions_DynamoDB_SNS_WATERMARK_lc.jpg)
+
 ---
 
 ## 🧱 Core Infrastructure
