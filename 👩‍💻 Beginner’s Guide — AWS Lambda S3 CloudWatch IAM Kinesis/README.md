@@ -112,6 +112,7 @@ Designed to highlight practical skills in **serverless compute**, **database ope
     }
   ]
 }
+```
 
 
 ### 🎯 Learning Outcomes
