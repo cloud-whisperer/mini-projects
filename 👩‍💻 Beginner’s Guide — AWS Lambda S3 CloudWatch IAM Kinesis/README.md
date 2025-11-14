@@ -112,3 +112,25 @@ Designed to highlight practical skills in **serverless compute**, **database ope
   ]
 }
 
+🎯 Learning Outcomes
+
+By completing this mini-project, you will be able to:
+
+🔁 Build a serverless event-driven workflow with Lambda → DynamoDB → SNS → SQS → Kinesis
+
+💾 Apply DynamoDB CRUD operations for real-time event processing
+
+🔔 Implement SNS notifications for high-value orders
+
+📬 Send messages to SQS for downstream decoupled processing
+
+📊 Stream order records to Kinesis for analytics
+
+🧠 Configure IAM roles with least privilege for Lambda functions
+
+📈 Monitor execution and event processing using CloudWatch Logs
+
+🧹 Practice clean-up best practices to minimize cost
+
+🚀 Reinforce core DVA-C02 domains: Compute, Database, Messaging, Permissions, Monitoring
+
