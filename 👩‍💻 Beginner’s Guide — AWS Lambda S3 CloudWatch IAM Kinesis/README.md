@@ -88,7 +88,7 @@ Designed to highlight practical skills in **serverless compute**, **database ope
 - 👤 **Assigned to Lambda**  
 ### 🧾 Policy
 
-``json
+```json
 {
   "Version": "2012-10-17",
   "Statement": [
