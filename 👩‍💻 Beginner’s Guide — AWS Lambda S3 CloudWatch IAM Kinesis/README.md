@@ -112,25 +112,19 @@ Designed to highlight practical skills in **serverless compute**, **database ope
   ]
 }
 
-🎯 Learning Outcomes
+### 🎯 Learning Outcomes
 
-By completing this mini-project, you will be able to:
+| 🔢 Step | Outcome                                                                 | Tool / Evidence                       |
+|--------|-------------------------------------------------------------------------|--------------------------------------|
+| 1️⃣     |🔁 Build a serverless event-driven workflow with Lambda → DynamoDB → SNS → SQS → Kinesis | AWS Console / Lambda / DynamoDB / SNS / SQS / Kinesis |
+| 2️⃣     |💾 Apply DynamoDB CRUD operations for real-time event processing          | DynamoDB Console                     |
+| 3️⃣     |🔔 Implement SNS notifications for high-value orders                      | SNS Console / Email Notifications    |
+| 4️⃣     |📬 Send messages to SQS for downstream decoupled processing               | SQS Console                          |
+| 5️⃣     |📊 Stream order records to Kinesis for analytics                           | Kinesis Console / CloudWatch Metrics |
+| 6️⃣     |🧠 Configure IAM roles with least privilege for Lambda functions          | IAM Console / Lambda Execution Role  |
+| 7️⃣     |📈 Monitor execution and event processing using CloudWatch Logs           | CloudWatch Logs                       |
+| 8️⃣     |🧹 Practice clean-up best practices to minimize cost                       | AWS Console / Resource Deletion      |
+| 9️⃣     |🚀 Reinforce core DVA-C02 domains: Compute, Database, Messaging, Permissions, Monitoring | All relevant AWS services            |
 
-🔁 Build a serverless event-driven workflow with Lambda → DynamoDB → SNS → SQS → Kinesis
 
-💾 Apply DynamoDB CRUD operations for real-time event processing
-
-🔔 Implement SNS notifications for high-value orders
-
-📬 Send messages to SQS for downstream decoupled processing
-
-📊 Stream order records to Kinesis for analytics
-
-🧠 Configure IAM roles with least privilege for Lambda functions
-
-📈 Monitor execution and event processing using CloudWatch Logs
-
-🧹 Practice clean-up best practices to minimize cost
-
-🚀 Reinforce core DVA-C02 domains: Compute, Database, Messaging, Permissions, Monitoring
 
