@@ -86,9 +86,9 @@ Designed to highlight practical skills in **serverless compute**, **database ope
 
 - ✅ **Role Name**: `ProcessOrderFunction-role`  
 - 👤 **Assigned to Lambda**  
-- 🧾 **Policy**:
-- ```json
+### 🧾 Policy
 
+``json
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -112,6 +112,7 @@ Designed to highlight practical skills in **serverless compute**, **database ope
     }
   ]
 }
+
 
 ### 🎯 Learning Outcomes
 
