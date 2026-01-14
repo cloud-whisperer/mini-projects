@@ -6,10 +6,6 @@ A lightweight Python CLI application demonstrating secure, traceable logging of 
 
 ## ✅ What This Project Is
 
-The goal of this project is to **build security intuition**, not exhaustively implement logging or monitoring systems.  
-
-This project focuses on:
-
 - ✅ Understanding how modular Python components interact  
 - ✅ Designing a simple, traceable audit-style workflow  
 - ✅ Capturing user context deliberately and transparently  
