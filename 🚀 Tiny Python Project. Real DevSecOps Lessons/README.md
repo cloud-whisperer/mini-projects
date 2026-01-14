@@ -1,6 +1,15 @@
 # 🔐 Secure Task Logger
 
-A lightweight Python CLI application demonstrating secure, traceable logging of user-submitted tasks. This project emphasizes modular design, explicit context capture, and audit-style workflows, providing a strong foundation for security-conscious development practices.
+A simple lightweight Python CLI for secure, auditable task logging.
+
+## 🗝️ Key Features
+
+- **Modular Design:** Each component has a single, focused responsibility  
+- **Traceable Workflow:** Captures and logs user-submitted tasks consistently  
+- **User Context:** Explicitly records execution identity for auditability  
+- **Audit-Style Logging:** Structured logs mimic real-world compliance patterns  
+- **Learning Foundation:** Demonstrates security-conscious development practices without over-engineering
+
 
 ---
 
@@ -21,7 +30,6 @@ A lightweight Python CLI application demonstrating secure, traceable logging of 
 Instead of deep-diving into a single component, this project follows a **horizontal slice approach**.  
 
 Each slice addresses three security-relevant questions:
-
 1️⃣ What initiates the action?  
 2️⃣ What context is captured and recorded?  
 3️⃣ Where does that record go, and why?  
@@ -52,7 +60,6 @@ It mirrors patterns used in:
 **Secure Task Logger** records user-submitted tasks alongside execution context, producing **structured logs** that resemble audit events.  
 
 Key design principles:
-
 - Explicit entry points  
 - Clear data flow  
 - Intentional, consistent logging  
