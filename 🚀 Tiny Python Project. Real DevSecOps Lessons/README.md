@@ -33,7 +33,6 @@ Each slice addresses three security-relevant questions:
 1️⃣ What initiates the action?  
 2️⃣ What context is captured and recorded?  
 3️⃣ Where does that record go, and why?  
-
 Once these questions are answered, development **stops** — preventing over-engineering and burnout.  
 
 **Guiding Principle:** Sampling > Perfection 🧪
@@ -45,12 +44,10 @@ Once these questions are answered, development **stops** — preventing over-eng
 This project demonstrates how **security thinking manifests in small, everyday codebases**, not just enterprise tooling.  
 
 It mirrors patterns used in:
-
 - Audit logging  
 - Forensic traceability  
 - DevSecOps pipelines  
 - Compliance-aware development  
-
 …but at a scale appropriate for **learning and iteration**.
 
 ---
