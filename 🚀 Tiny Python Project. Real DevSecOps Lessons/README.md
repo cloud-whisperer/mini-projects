@@ -33,9 +33,6 @@ Each slice addresses three security-relevant questions:
 <br>1️⃣ What initiates the action?  
 2️⃣ What context is captured and recorded?  
 3️⃣ Where does that record go, and why?  
-Once these questions are answered, development **stops** — preventing over-engineering and burnout.  
-
-**Guiding Principle:** Sampling > Perfection 🧪
 
 ---
 
