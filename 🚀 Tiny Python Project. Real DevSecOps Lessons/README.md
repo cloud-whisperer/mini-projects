@@ -30,7 +30,7 @@ A simple lightweight Python CLI for secure, auditable task logging.
 Instead of deep-diving into a single component, this project follows a **horizontal slice approach**.  
 
 Each slice addresses three security-relevant questions:
-1️⃣ What initiates the action?  
+<br>1️⃣ What initiates the action?  
 2️⃣ What context is captured and recorded?  
 3️⃣ Where does that record go, and why?  
 Once these questions are answered, development **stops** — preventing over-engineering and burnout.  
