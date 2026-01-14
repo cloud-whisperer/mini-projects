@@ -1,1 +1,1 @@
-<h1>Mini-Projects🛠️ </h1>
+<h1>Mini-Projekts🛠️ </h1>
