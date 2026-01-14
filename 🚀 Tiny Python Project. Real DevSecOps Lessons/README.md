@@ -4,7 +4,7 @@ A lightweight Python CLI application demonstrating secure, traceable logging of 
 
 ---
 
-## ✅ What This Project Is
+## ✍️ What This Project Is
 
 - ✅ Understanding how modular Python components interact  
 - ✅ Designing a simple, traceable audit-style workflow  
