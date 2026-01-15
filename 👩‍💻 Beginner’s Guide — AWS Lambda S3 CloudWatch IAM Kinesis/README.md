@@ -30,7 +30,7 @@ Designed to highlight practical skills in **serverless compute**, **database ope
 - 📈 **Inspect logs in CloudWatch** to validate order processing.  
 - 🧹 **Clean up resources** to avoid charges.  
 
-
+<br>![Workflow Diagram](900x500_1_2_lc_WATERMARK_lc.jpg)
 <br>![Workflow Diagram](900x500_2_2_lc_WATERMARK_lc.jpg)
 
 
