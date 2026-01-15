@@ -10,7 +10,7 @@ A simple lightweight Python CLI for secure, auditable task logging.
 - **Audit-Style Logging:** Structured logs mimic real-world compliance patterns  
 - **Learning Foundation:** Demonstrates security-conscious development practices without over-engineering
 
-
+<br>![Workflow Diagram](output_lc.jpg)
 ---
 
 ## ✍️ What This Project Is
