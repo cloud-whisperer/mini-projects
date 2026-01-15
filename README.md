@@ -1,6 +1,6 @@
 <h1>Mini-Projekts🛠️ </h1>
 
-## 📖 Projekt Overview
+## 📖 Overview
 
 **Summary:** A collection of hands-on projects focused on secure cloud infrastructure, hybrid identity, and compliance-driven system design across AWS, Azure, 
 Oracle, and on-premise environments.
