@@ -26,6 +26,9 @@ This mini-project showcases how to set up a **Network Load Balancer (NLB)** that
 - 🔒   &nbsp;&nbsp;Configure and attach security groups to control inbound/outbound traffic.<br>
 - 📶   &nbsp;&nbsp;Verify connectivity and load balancing across AZs using public IP.<br>
 
+![Alt Text](700x500_network_diagram_main_lc.jpg)
+
+900x500_Round_robin_lc.jpg
 ---
 
 ## 🔧 What I Accomplished
