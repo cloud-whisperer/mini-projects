@@ -2,9 +2,9 @@
 
 🔁 *Synchronize On-Premises Identity + Migrate File Shares to Microsoft Cloud Services with Zero Trust Controls*
 
-Part I
+Part I<br>
 ![Alt Text](800x500_1.jpg)
-Part II
+Part II<br>
 ![Alt Text](800x500_2.jpg)
 
 ---
