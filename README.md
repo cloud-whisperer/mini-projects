@@ -1,4 +1,4 @@
-<h1>Mini-Projekts🛠️ </h1>
+<h1>Projekts🛠️ </h1>
 
 ## 📖 Overview
 
