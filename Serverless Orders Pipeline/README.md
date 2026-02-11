@@ -1,6 +1,6 @@
 
-## 📦 Serverless | Distributed | Scalable 
-### Orders Pipeline Workflow<br>Lambda → DynamoDB → SNS → SQS
+## 📦  Orders Pipeline Workflow
+### Serverless | Distributed | Scalable<br>Lambda → DynamoDB → SNS → SQS
 
 🔁 *Process Orders Securely in a Serverless Event-Driven Architecture on AWS*
 
