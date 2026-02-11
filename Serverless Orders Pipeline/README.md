@@ -66,9 +66,9 @@ It models a realistic **e-commerce order pipeline**, where each order is stored,
   {
     "Version": "2012-10-17",
     "Statement": [
-      { "Effect": "Allow", "Action": ["dynamodb:PutItem"], "Resource": "arn:aws:dynamodb:us-east-1:<account-id>:table/OrdersTable" },
-      { "Effect": "Allow", "Action": ["sns:Publish"], "Resource": "arn:aws:sns:us-east-1:<account-id>:HighValueOrderTopic" },
-      { "Effect": "Allow", "Action": ["sqs:SendMessage"], "Resource": "arn:aws:sqs:us-east-1:<account-id>:HighValueQueue" }
+      { "Effect": "Allow", "Action": ["dynamodb:PutItem"], "Resource": "arn:aws:dynamodb:<region>:<account-id>:table/OrdersTable" },
+      { "Effect": "Allow", "Action": ["sns:Publish"], "Resource": "arn:aws:sns:<region>:<account-id>:HighValueOrderTopic" },
+      { "Effect": "Allow", "Action": ["sqs:SendMessage"], "Resource": "arn:aws:sqs:><region>:<account-id>:HighValueQueue" }
     ]
   }
 
